@@ -1,0 +1,2 @@
+var e=document.querySelector("table"),t=function(t){var r=e.tBodies[0],n=Array.from(r.rows);n.sort(function(e,r){var n=e.cells[t].textContent.trim(),o=r.cells[t].textContent.trim();return n.localeCompare(o,"en",{numeric:!0})}),r.innerHTML="",n.forEach(function(e){return r.appendChild(e)})};e.querySelectorAll("th").forEach(function(e,r){e.addEventListener("click",function(){return t(r)})});
+//# sourceMappingURL=index.06cc1788.js.map
